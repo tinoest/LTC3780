@@ -536,7 +536,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 5625 6550 5700
 Text GLabel 8050 4775 0    50   Input ~ 0
-PLLFLTR
+PLLFILTR
 Text GLabel 5075 6475 0    50   Output ~ 0
 PLLFILTR
 $Comp
