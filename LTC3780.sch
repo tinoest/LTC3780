@@ -176,7 +176,7 @@ U 1 1 5CAA5CFE
 P 8175 4975
 F 0 "PLL_IN1" V 8200 4925 50  0000 C CNN
 F 1 "TestPoint" V 8175 5325 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point" H 8375 4975 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8375 4975 50  0001 C CNN
 F 3 "~" H 8375 4975 50  0001 C CNN
 	1    8175 4975
 	0    -1   -1   0   
@@ -1426,4 +1426,48 @@ Wire Wire Line
 	1000 6050 1500 6050
 Wire Wire Line
 	1500 6050 1500 5850
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CDC3A6E
+P 9975 750
+F 0 "H1" H 9825 850 50  0000 L CNN
+F 1 "MountingHole" H 9550 625 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4mm" H 9975 750 50  0001 C CNN
+F 3 "~" H 9975 750 50  0001 C CNN
+	1    9975 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CDC502A
+P 10225 750
+F 0 "H2" H 10075 850 50  0000 L CNN
+F 1 "MountingHole" H 10150 625 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4mm" H 10225 750 50  0001 C CNN
+F 3 "~" H 10225 750 50  0001 C CNN
+	1    10225 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CDC5763
+P 9975 1075
+F 0 "H3" H 9825 1175 50  0000 L CNN
+F 1 "MountingHole" H 9550 950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4mm" H 9975 1075 50  0001 C CNN
+F 3 "~" H 9975 1075 50  0001 C CNN
+	1    9975 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CDC622D
+P 10225 1075
+F 0 "H4" H 10075 1175 50  0000 L CNN
+F 1 "MountingHole" H 10150 950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4mm" H 10225 1075 50  0001 C CNN
+F 3 "~" H 10225 1075 50  0001 C CNN
+	1    10225 1075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
