@@ -1470,4 +1470,46 @@ F 3 "~" H 10225 1075 50  0001 C CNN
 	1    10225 1075
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CP COUT2
+U 1 1 5CDD6C5E
+P 6200 1275
+F 0 "COUT2" H 6225 1375 50  0000 L CNN
+F 1 "330uF" H 6225 1175 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10.5" H 6238 1125 50  0001 C CNN
+F 3 "~" H 6200 1275 50  0001 C CNN
+	1    6200 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP CIN2
+U 1 1 5CDD8390
+P 3475 1250
+F 0 "CIN2" H 3500 1350 50  0000 L CNN
+F 1 "22uF" H 3500 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x6.7" H 3513 1100 50  0001 C CNN
+F 3 "~" H 3475 1250 50  0001 C CNN
+	1    3475 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 1100 3475 875 
+Wire Wire Line
+	3475 875  3100 875 
+Connection ~ 3100 875 
+Wire Wire Line
+	3475 1400 3475 1750
+Wire Wire Line
+	3475 1750 3100 1750
+Connection ~ 3100 1750
+Wire Wire Line
+	6200 1125 6200 900 
+Wire Wire Line
+	6200 900  5700 900 
+Connection ~ 5700 900 
+Wire Wire Line
+	6200 1425 6200 1775
+Wire Wire Line
+	6200 1775 5700 1775
+Connection ~ 5700 1775
 $EndSCHEMATC
